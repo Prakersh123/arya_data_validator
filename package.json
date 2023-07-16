@@ -1,6 +1,6 @@
 {
   "name": "arya_data_validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for basic data validation in nodejs for various data types",
   "main": "index.js",
   "scripts": {
