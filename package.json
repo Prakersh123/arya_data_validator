@@ -2,6 +2,14 @@
   "name": "arya_data_validator",
   "version": "1.0.3",
   "description": "A package for basic data validation in nodejs for various data types",
+  "keywords": [
+    "data",
+    "validation",
+    "javascript",
+    "npm",
+    "library",
+    "data validation"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "jest"
