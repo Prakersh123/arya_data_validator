@@ -14,7 +14,7 @@ function callFunctionBasedOnKey(body) {
         return stringClass.length(body.input, body.value);
     }
     if (body.key === 'startsWith') {
-        return stringClass.startsWith(body.input, input.value);
+        return stringClass.startsWith(body.input, body.value);
     }
     if (body.key === 'endsWith') {
         return stringClass.endsWith(body.input, body.value);
