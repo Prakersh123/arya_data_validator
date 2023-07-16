@@ -31,4 +31,10 @@ const aryaDataValidator = require('arya_data_validator);
 ## NUMBER
 - We support following properties
   - isInteger: true/false
-      -To check whether the given value is integer or not
+      -To check whether the given value is integer or not.
+  - maximumValue: y
+      - To check whether the give value is always less than or equal to y.
+  - minimumValue: y
+      - To check whether the given value is always greter than or equal to y.
+  - equalsTo: arr( Note: arr is always an array)
+      - To check whether the give value is always equal to one of the values present in arr array.
