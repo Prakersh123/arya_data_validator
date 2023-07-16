@@ -108,4 +108,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This package is open source and available under the MIT License.
 
 ## Credits
-Arya Data Validator is developed and maintained by Prakersh Kumar Arya.
+Arya Data Validator is developed and maintained by <b>Prakersh Kumar Arya</b>.
