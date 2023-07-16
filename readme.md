@@ -26,6 +26,19 @@ npm install arya_data_validator
 ## Usage
 ```shell
 const aryaDataValidator = require('arya_data_validator);
+const aryaDataValidator = require('arya_data_validator');
+
+let expectedObj = [
+    { type: 'number', name: 'phoneNumber', isRequired: true, minLength: 7, maxLength: 10 },
+    { type: 'string', name: 'name', isRequired: true, maximumLength: 10, startsWith: ['p', 'P'] },
+];
+let inputObj = {
+    phoneNumber: 89123456,
+    name: 'Prakersh'
+}
+console.log(aryaDataValidator.validateData(inputObj, expectedObj))
+// output: {result: true}
+
 ```
 
 ## NUMBER
@@ -87,3 +100,12 @@ const aryaDataValidator = require('arya_data_validator);
       - To check whether the given array length is always greater than or equal to y.
   - ## maximumLength: y(Integer)
       - To check whether the given array length is always less than or equal to y.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository (https://github.com/Prakersh123).
+
+## License
+This package is open source and available under the MIT License.
+
+## Credits
+Arya Data Validator is developed and maintained by <b>Prakersh Kumar Arya</b>.
