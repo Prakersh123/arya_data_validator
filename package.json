@@ -1,0 +1,14 @@
+{
+  "name": "arya_data_validator",
+  "version": "1.0.0",
+  "description": "A package for validating requirement of data",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Prakersh_arya",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
