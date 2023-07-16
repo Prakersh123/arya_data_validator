@@ -1,4 +1,4 @@
-Arya Data Validator
+<h1>Arya Data Validator</h1>
 
 Arya Data Validator is a versatile and comprehensive JavaScript library for validating data inputs. It offers a wide range of validation rules and functions to ensure data integrity and enforce specific data requirements.
 
