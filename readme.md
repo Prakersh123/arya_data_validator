@@ -31,7 +31,7 @@ const aryaDataValidator = require('arya_data_validator);
 ## NUMBER
 - We support following properties
   - ## isInteger: true/false
-      -To check whether the given value is integer or not.
+      - To check whether the given value is integer or not.
   - ## maximumValue: y
       - To check whether the given value is always less than or equal to y.
   - ## minimumValue: y
@@ -55,7 +55,7 @@ const aryaDataValidator = require('arya_data_validator);
 ## STRING
 - We support following properties
   - ## noEmpty: true
-      -To check whether the given string is not empty.
+      - To check whether the given string is not empty.
   - ## length: y(Integer)
       - To check whether the given string has length equal to y.
   - ## minimumLength: y(Integer)
@@ -80,7 +80,7 @@ const aryaDataValidator = require('arya_data_validator);
  ## ARRAY
 - We support following properties
   - ## noEmptyArray: true
-      -To check whether the given array is not empty.
+      - To check whether the given array is not empty.
   - ## length: y(Integer)
       - To check whether the given array has length equal to y.
   - ## minimumLength: y(Integer)
