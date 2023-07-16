@@ -26,3 +26,9 @@ npm install arya_data_validator
 ## Usage
 ```shell
 const aryaDataValidator = require('arya_data_validator);
+```
+
+## NUMBER
+- We support following properties
+  - isInteger: true/false
+      -To check whether the given value is integer or not
