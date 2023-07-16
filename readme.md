@@ -33,8 +33,20 @@ const aryaDataValidator = require('arya_data_validator);
   - ## isInteger: true/false
       -To check whether the given value is integer or not.
   - ## maximumValue: y
-      - To check whether the give value is always less than or equal to y.
+      - To check whether the given value is always less than or equal to y.
   - ## minimumValue: y
       - To check whether the given value is always greter than or equal to y.
   - ## equalsTo: arr( Note: arr is always an array)
-      - To check whether the give value is always equal to one of the values present in arr array.
+      - To check whether the given value is always equal to one of the values present in arr array.
+  - ## notEqualTo: arr( Note: arr is always an array)
+      - To check whether the given value is never equal to any of the values present in arr array.
+  - ## onlyPositive: true
+      - To check whether the given value is always positive.
+  - ## onlyNegative: true
+      - To check whether the given value is always negative.
+  - ## maxLength: N(integer)
+      - To check the maximum number of digit in the given input is N
+  - ## minLength: N(integer)
+      - To check the minimum number of digit in the given input is N
+  - ## exactLength: N(integer)
+      - To check the number of digit in the given input is always N
