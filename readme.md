@@ -50,3 +50,29 @@ const aryaDataValidator = require('arya_data_validator);
       - To check the minimum number of digit in the given input is N
   - ## exactLength: N(integer)
       - To check the number of digit in the given input is always N
+
+
+## STRING
+- We support following properties
+  - ## noEmpty: true
+      -To check whether the given string is not empty.
+  - ## length: y(Integer)
+      - To check whether the given string has length equal to y.
+  - ## minimumLength: y(Integer)
+      - To check whether the given string length is always greater than or equal to y.
+  - ## maximumLength: y(Integer)
+      - To check whether the given string length is always less than or equal to y.
+  - ## startsWith: arr(Array of chars only)
+      - To check whether the given string always start with any of the char present in the arr.
+  - ## endsWith: arr(Array of chars only)
+      - To check whether the given string always end with any of the char present in the arr.
+  - ## mustNotStartWith: arr(Array of chars only)
+      - To check whether the given string never start with any of the char present in the arr.
+  - ## mustNotEndWith: arr(Array of chars only)
+      - To check whether the given string never end with any of the char present in the arr.
+
+  - ## onlyAllowedChars: arr(Array of chars only)
+      - To check whether the given string consist of only char present in the arr.
+  - ## excludedChars: arr(Array of chars only)
+      - To check whether the given string never consist of any char present in the arr.
+ 
