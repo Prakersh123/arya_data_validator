@@ -76,3 +76,14 @@ const aryaDataValidator = require('arya_data_validator);
   - ## excludedChars: arr(Array of chars only)
       - To check whether the given string never consist of any char present in the arr.
  
+
+ ## ARRAY
+- We support following properties
+  - ## noEmptyArray: true
+      -To check whether the given array is not empty.
+  - ## length: y(Integer)
+      - To check whether the given array has length equal to y.
+  - ## minimumLength: y(Integer)
+      - To check whether the given array length is always greater than or equal to y.
+  - ## maximumLength: y(Integer)
+      - To check whether the given array length is always less than or equal to y.
