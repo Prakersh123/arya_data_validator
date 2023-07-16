@@ -100,3 +100,12 @@ console.log(aryaDataValidator.validateData(inputObj, expectedObj))
       - To check whether the given array length is always greater than or equal to y.
   - ## maximumLength: y(Integer)
       - To check whether the given array length is always less than or equal to y.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the GitHub repository (https://github.com/Prakersh123).
+
+## License
+This package is open source and available under the MIT License.
+
+## Credits
+Arya Data Validator is developed and maintained by Prakersh Kumar Arya.
