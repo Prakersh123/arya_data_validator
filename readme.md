@@ -26,6 +26,19 @@ npm install arya_data_validator
 ## Usage
 ```shell
 const aryaDataValidator = require('arya_data_validator);
+const aryaDataValidator = require('arya_data_validator');
+
+let expectedObj = [
+    { type: 'number', name: 'phoneNumber', isRequired: true, minLength: 7, maxLength: 10 },
+    { type: 'string', name: 'name', isRequired: true, maximumLength: 10, startsWith: ['p', 'P'] },
+];
+let inputObj = {
+    phoneNumber: 89123456,
+    name: 'Prakersh'
+}
+console.log(aryaDataValidator.validateData(inputObj, expectedObj))
+// output: {result: true}
+
 ```
 
 ## NUMBER
