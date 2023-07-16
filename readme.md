@@ -21,3 +21,8 @@ You can install the Arya Data Validator package via npm:
 
 ```shell
 npm install arya_data_validator
+```
+
+## Usage
+```shell
+const aryaDataValidator = require('arya_data_validator);
