@@ -6,13 +6,16 @@ const numberClass = require("./number");
 
 function callFunctionBasedOnKey(body) {
     if (body.key === 'onlyInteger') {
-        return numberClass.isInteger(body.input) === body.value;
+        if (numberClass.isInteger(body.input).result == body.value) { return {result: true }};
+        return { result: false, message: 'Given field is not integer' };
     }
     if (body.key === 'onlyPositive') {
-        return numberClass.onlyPositive(body.input) === body.value;
+        if (numberClass.onlyPositive(body.input).result == body.value) { return {result: true }};
+        return { result: false, message: 'Given field is not positive' };
     }
     if (body.key === 'onlyNegative') {
-        return numberClass.onlyNegative(body.input) === body.value;
+        if (numberClass.onlyNegative(body.input).result == body.value) { return {result: true }};
+        return { result: false, message: 'Given field is not negative' };
     }
     if (body.key === 'minimumValue') {
         return numberClass.minimumValue(body.input, body.value);
