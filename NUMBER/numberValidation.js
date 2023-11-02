@@ -98,10 +98,11 @@ function validateNumber(expectedObject, inputObject) {
         if (!['name', 'type', 'isRequired'].includes(keys[i])) {
             let syntaxCheck = checkSyntaxError(expectedObject, keys[i]);
             if (!syntaxCheck.result) return syntaxCheck;
+            if (!numberClass.isNumber(inputObject[expectedObject.name]).result) return { result: false, message: 'Wrong data type for number'};
             let data = callFunctionBasedOnKey({
                 key: keys[i],
                 value: expectedObject[keys[i]],
-                input: inputObject[expectedObject.name]
+                input: Number(inputObject[expectedObject.name])
             });
             if (!data.result) return data;
         }

@@ -1,5 +1,5 @@
 function isNumber(x) {
-    if (Number.isNaN(x) === false && typeof(x) === 'number') {
+    if (Number.isNaN(Number(x)) === false) {
         return { result: true };
     }
     return { result: false, message: 'Given data is not a number' };
